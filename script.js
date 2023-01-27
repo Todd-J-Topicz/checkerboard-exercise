@@ -23,3 +23,9 @@ for (let x = 0; x < 81; x++) {
     }
     document.body.appendChild(tile);
 };
+
+
+//git branch - status of branch
+//git checkout -b "NAME"  - creates 
+//git merge develop (develop is standard, which holds all up to date branches)
+//
