@@ -16,16 +16,17 @@ for (let x = 0; x < 81; x++) {
 
     if (x % 2 === 0) {
         tile.classList.add('even');
-        tile.style.backgroundColor = "black";
+        tile.style.backgroundColor = "orange";
     } else {
         tile.classList.add('odd');
-        tile.style.backgroundColor = "red";
+        tile.style.backgroundColor = "green";
     }
     document.body.appendChild(tile);
 };
 
 
 //git branch - status of branch
-//git checkout -b "NAME"  - creates 
+//git checkout -b "NAME"  - creating a new branch with NAME (no quotes);
+//git branch NAME - (switches between branches)
 //git merge develop (develop is standard, which holds all up to date branches)
 //
