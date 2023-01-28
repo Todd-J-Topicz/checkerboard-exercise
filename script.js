@@ -14,13 +14,8 @@ for (let x = 0; x < 81; x++) {
     tile.style.minWidth = "11.1%";
     tile.style.paddingBottom = "11.1%";
 
-    if (x % 2 === 0) {
-        tile.classList.add('even');
-        tile.style.backgroundColor = "black";
-    } else {
-        tile.classList.add('odd');
-        tile.style.backgroundColor = "red";
-    }
+    x % 2 === 0 ? tile.style.backgroundColor = "black" : tile.style.backgroundColor = "red";
+
     document.body.appendChild(tile);
 };
 
@@ -29,3 +24,4 @@ for (let x = 0; x < 81; x++) {
 //git checkout -b "NAME"  - creates 
 //git merge develop (develop is standard, which holds all up to date branches)
 //
+
